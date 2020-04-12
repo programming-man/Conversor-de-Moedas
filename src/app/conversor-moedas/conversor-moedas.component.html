@@ -1,1 +1,41 @@
-<p>conversor-moedas works!</p>
+<div class="main-content">
+    <div class="content-converter">
+        
+        <h1 class="title">Conversor de Moedas</h1>
+        
+        <div class="choose-coins">
+            <a href="#american-dollar" id="american-dollar" class="coins">
+                <img src="../../assets/coins/usd.png" alt="American dollar">
+            </a>
+            <a href="#australian-dollar" id="australian-dollar" class="coins">
+                <img src="../../assets/coins/aus.png" alt="Australian dollar"> 
+            </a>
+            <a href="#canadian-dollar" id="canadian-dollar" class="coins">
+                <img src="../../assets/coins/cas.png" alt="Canadian dollar">
+            </a>
+            <a href="#pound" id="pound" class="coins">
+                <img src="../../assets/coins/gbp.png" alt="Pound">
+            </a>
+            <a href="#euro" id="euro" class="coins">
+                <img src="../../assets/coins/eur.png" alt="Euro">
+            </a>
+        </div>
+
+        <div class="form-control">
+            <form class="form-check-input">
+                <span>{{interCoin}}</span>
+                <mat-form-field class="custom-control-input">
+                    <mat-label>{{coin1}}</mat-label>
+                    <input matInput placeholder="1.00" value="1.00">
+                </mat-form-field>
+                <label>Para</label>
+                <span>{{brCoin}}</span>
+                <mat-form-field class="custom-control-input">
+                    <mat-label>{{coin2}}</mat-label>
+                    <input matInput placeholder="1,00" value="">
+                </mat-form-field>
+            </form>
+        </div>
+
+    </div>
+</div>

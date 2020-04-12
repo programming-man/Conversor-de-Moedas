@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConversorMoedasComponent implements OnInit {
 
-  constructor() { }
-
   ngOnInit(): void {
   }
+  
+  // Variáveis do Input Value //
+  interCoin
+  brCoin
+
+  // Variáveis do Span //
+  coin1 = "Dólar Americano"
+  coin2 = "Dólar Australiano"
+  
+  constructor() { }
 
 }

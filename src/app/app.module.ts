@@ -1,11 +1,18 @@
+// Browser //
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// Modulos //
 import { NgModule } from '@angular/core';
-
+// Rotas //
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule} from '@angular/common/http'
+// Material //
+import {MatInputModule} from '@angular/material/input';
+// Componentes //
 import { AppComponent } from './app.component';
 import { ConversorMoedasComponent } from './conversor-moedas/conversor-moedas.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HttpClientModule} from '@angular/common/http'
+// Serviços //
+import { ConversorMoedasService } from "./conversor-api.service";
 
 @NgModule({
   declarations: [
@@ -16,9 +23,10 @@ import { HttpClientModule} from '@angular/common/http'
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatInputModule
   ],
-  providers: [],
+  providers: [ConversorMoedasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
