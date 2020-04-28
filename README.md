@@ -10,14 +10,14 @@ O objetivo do desafio é criar um projeto em Angular chamado “Conversor de moe
 * Ver o histórico do preço de cada moedas
 
 **Os desafios estão listados abaixo:**
-1. Criar o projeto
-2. Criar o componente da calculadora
-3. Cria o componente de navegação
-4. Alterar o componente da calculadora a partir da navegação
-5. Coletar dado da cotação de uma API
-6. Exibir o dado da cotação no componente de navegação
-7. Exibir o dado da cotação no componente da calculadora
-8. Criar o componente gráfico de histórico de preço
+1. Criar o projeto :heavy_check_mark:
+2. Criar o componente da calculadora :heavy_check_mark:
+3. Cria o componente de navegação :heavy_check_mark:
+4. Alterar o componente da calculadora a partir da navegação :heavy_check_mark:
+5. Coletar dado da cotação de uma API :heavy_check_mark:
+6. Exibir o dado da cotação no componente de navegação :heavy_check_mark:
+7. Exibir o dado da cotação no componente da calculadora :heavy_check_mark:
+8. Criar o componente gráfico de histórico de preço :heavy_check_mark:
 9. Coletar dados históricos de uma API
 10. Exibir o dado histórico no componente de histórico de preço
 
